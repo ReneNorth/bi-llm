@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import openai
 import requests
 import json
+from tableau.tableau_integration import TEST
 
 
 load_dotenv()
@@ -65,6 +66,7 @@ def generate_chat_response(prompt):
 
 
 if __name__ == '__main__':
+    print(TEST)
     print('Enter a prompt:')
     prompt = input()
     print(f'the prompt is "{prompt}"')
