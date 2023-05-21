@@ -164,3 +164,7 @@ node_modules
 .idea
 settings.json
 
+# project specific
+gpt_responses.txt
+datasets/
+
