@@ -167,4 +167,5 @@ settings.json
 # project specific
 gpt_responses.txt
 datasets/
-
+.env
+requests.http
